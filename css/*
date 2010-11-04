@@ -1,0 +1,211 @@
+/*
+ CSS file for the Eoforwic Web site
+ 
+ Heavily modified by Jon Barson 2010
+ */@import "reset.css";
+@font-face {font-family:
+    'Anglo-SaxonCapsRegular';
+    src:
+    url('font/saxon-webfont.eot');
+    src:
+    local('@'), url('../font/saxon-webfont.woff') format('woff'), url('../font/saxon-webfont.ttf') format('truetype'), url('../font/saxon-webfont.svg#webfontQ0o9Boe6') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 10px;
+    font-family: Helvetica, Georgia, serif;
+    font-size: 12pt;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Anglo-SaxonCapsRegular', Georgia, serif;
+    text-align: right;
+    padding: 0px 150px 0px 0px;
+    margin: 10px 10px 10px 10px;
+    color: #A00;
+    text-shadow: gray 0px 5px 10px;
+    font-size: 48px;
+    letter-spacing: 3px;
+	width:150px:
+}
+
+h2 {
+    font-family: 'Anglo-SaxonCapsRegular', Georgia, serif;
+    font-weight: bold;
+    color: #A00;
+    font-size: 24pt;
+    text-shadow: gray 0px 5px 10px;
+    letter-spacing: 3px;
+    margin: 22px 0 22px 0px;
+	text-align:right;
+	padding:0 150px 0 0;
+}
+
+h3 {
+    font-family: 'Anglo-SaxonCapsRegular', Georgia, serif;
+    font-weight: bold;
+    color: #A00;
+    font-size: 16pt;
+    text-shadow: gray 0px 5px 10px;
+    letter-spacing: 3px;
+    text-align: center;
+	margin: 22px 0 22px 0px;
+}
+
+p {
+    margin: 16px 0 20px 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#masthead {
+    margin: 0 auto;
+    margin-top: 20px;
+	background-image:url("../images/fadearms.gif");
+	background-repeat:no-repeat;
+}
+
+#header img {
+    float:right;
+}
+
+#header h1 {
+    font-size: 2em;
+    margin: 10px 0 0 0;
+    padding: 10px;
+}
+#header h2 {
+	text-align:center;
+}
+#content h2 {
+	text-align:left;
+}
+h2.firstline {
+	padding-top:16px;
+}
+
+#footer {
+    clear: both;
+    padding: 0;
+    border-top: 2px solid #ddd;
+    text-align: left;
+    font-size: 75%;
+}
+
+#footer p {
+    margin: 0;
+}
+
+
+ul#nav {
+    margin: 0;
+    font-family: Georgia, serif;
+    padding: 8px 0 0 0;
+    list-style-type: none;
+    display: block;
+    height: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    text-shadow: gray 0px 5px 10px;
+    letter-spacing: 2px;
+}
+
+ul#nav li {
+    float: left;
+    display: inline;
+    text-align: center;
+}
+
+ul#nav li a {
+    padding: 8px 20px 0 20px;
+}
+
+a:link {
+    color: #A00;
+    text-decoration: none;
+    -webkit-transition: color 1s;
+}
+
+a:visited {
+    color: #900;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #999999;
+    text-decoration: none;
+}
+
+#event {
+    text-align: center;
+}
+
+#title {
+    margin-right: 50px;
+	height:140px;
+}
+
+#sidebar {
+    float: right;
+    width: 250px;
+}
+
+#content {
+    margin-right: 410px;
+}
+
+#calendar {
+    margin-right: 260px;
+}
+#sidecal {
+    float: right;
+    width: 400px;
+}
+.firstline {
+    padding: 6px 200px 0px 0px;
+}
+
+.firstletter {
+    font-size: 125%;
+}
+
+.back0 {
+    background: url(../images/sharpstuff.jpg) no-repeat right top;
+}
+
+.back1 {
+    background: url(../images/swordshield.jpg) no-repeat right top;
+}
+
+.back2 {
+    background: url(../images/thorolfr.jpg) no-repeat right top;
+}
+
+.back3 {
+    background: url(../images/blacksmith.jpg) no-repeat right top;
+}
+
+.back4 {
+    background: url(../images/clayfire.jpg) no-repeat right top;
+}
+
+.back5 {
+    background: url(../images/melee.jpg) no-repeat right top;
+}
+.center {
+	text-align:center;
+}
+
+span.amp {
+    font-family: "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+    font-size: 110%;
+    font-style: italic;
+}
