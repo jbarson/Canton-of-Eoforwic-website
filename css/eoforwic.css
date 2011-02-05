@@ -82,15 +82,22 @@ li {
     background-image: url("../images/fadearms.jpg");
     background-repeat: no-repeat;
 }
-#eventannounce {
+#eventannounce  {
     margin:0 auto;
     width: 960px;
+    background:#DCDCDC;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 #eventannounce h3, #eventannounce p {padding: 16px; margin:0; }
-#eventannounce p, li {color:black;}
-#eventannounce a:link, #eventannounce a:visited {background:#DCDCDC;display:block; border-radius: 15px; -webkit-transition: background 1s; -moz-transition: background 1s;}
-* html #eventannounce a {width:100%}
-#eventannounce a:hover {background:#AAA}
+#eventannounce p, #eventannounce li {color:black;}
+#eventannounce a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+                }
 #header img {
     float: right;
 }
@@ -169,9 +176,6 @@ a:hover {
     text-decoration: none;
 }
 
-#event {
-    text-align: center;
-}
 
 #title {
     margin-right: 50px;
@@ -182,6 +186,7 @@ a:hover {
     float: right;
     width: 250px;
 	background-color: #DCDCDC;
+  -moz-border-radius: 15px;
 	border-radius: 15px;
 }
 #sidebar li {
