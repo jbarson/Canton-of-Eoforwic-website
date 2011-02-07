@@ -98,10 +98,10 @@ li {
 #eventannounce p {color:red; padding:0; margin:0;}
 #eventannounce a {
       width: 100%;
-      height: 298px;
+      height: 100%;
       position: absolute;
       left:0;
-      top:300px;
+      top:0;
 }
                 
 #header img {
