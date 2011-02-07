@@ -89,16 +89,17 @@ li {
     -moz-border-radius: 15px;
     border-radius: 15px;
 }
-#eventannounce h3, #eventannounce p {padding: 16px; margin:0; }
+#eventannounce h3 {padding: 16px; margin:0; }
 #eventannounce li {color:black;}
-#eventannounce p {color:red;}
+#eventannounce p {color:red; padding:0; margin:0;}
 #eventannounce a {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-                }
+      width: 100%;
+      height: 298px;
+      position: absolute;
+      left:0;
+      top:300px;
+}
+                
 #header img {
     float: right;
 }
