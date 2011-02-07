@@ -88,6 +88,7 @@ li {
 #eventannounce  {
     margin:0 auto;
     width: 960px;
+    position:relative;
     background:#DCDCDC;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -95,7 +96,7 @@ li {
 #eventannounce h3 {padding: 16px; margin:0; }
 #eventannounce li {color:black;}
 #eventannounce p {color:red; padding:0; margin:0;}
-div#eventannounce span a {
+div#eventannounce a {
       width: 100%;
       height: 100%;
       position: absolute;
