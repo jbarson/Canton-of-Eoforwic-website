@@ -88,6 +88,7 @@ li {
 #eventannounce  {
     margin:0 auto;
     width: 960px;
+    position:relative;
     background:#DCDCDC;
     -moz-border-radius: 15px;
     border-radius: 15px;
