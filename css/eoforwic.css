@@ -277,3 +277,8 @@ span.amp {
   width: 960px;
   margin: auto;
 }
+.sched {
+  text-align: left;
+  margin: auto;
+}
+.sched td { padding-left: 10px;}
