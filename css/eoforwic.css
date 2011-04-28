@@ -280,5 +280,5 @@ span.amp {
   text-align: left;
   margin: auto;
 }
-.sched td { padding-left: 10px; border-top:1px solid black;vertical-align:top;}
+.sched td { padding-left: 10px; border-top:1px solid black;vertical-align:top;border-bottom:1px solid black}
 
