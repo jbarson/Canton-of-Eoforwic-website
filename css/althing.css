@@ -67,7 +67,7 @@
   * Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
   */
 
- body { font:13px/1.231 sans-serif; *font-size:small; } /* Hack retained to preserve specificity */
+ body { font:13px/1.231 sans-serif; *font-size:small;  margin:10px;} /* Hack retained to preserve specificity */
  select, input, textarea, button { font:99% sans-serif; }
 
  /* Normalize monospace sizing:
@@ -156,11 +156,11 @@
    /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
    color: #444;
    /* Set your base font here, to apply evenly */
-   /* font-family: Georgia, serif;  */
+   /*font-family: Georgia, serif;  */
  }
 
  /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
- h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+ h1, h2, h3, h4, h5, h6 { font-weight: bold; font-family: 'MedievalSharp', serif;color: #A00;text-shadow: gray 0px 5px 10px;letter-spacing: 3px;}
 
  a, a:active, a:visited { color: #607890; }
  a:hover { color: #036; }
@@ -169,11 +169,50 @@
  /**
   * Primary styles
   *
-  * Author: 
+  * Author: Jon Barson
   */
+h1 {font-size: 48px;}
+h2 {font-size: 24pt;}    
+h3 {font-size: 16pt;}
+div#wrap {margin:0 48px;}
+#picHolder {
+    width: 226px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: -1;
+}
 
-
-
+#picHolder img {display: none;}
+#picHolder img.first {display: block;}
+header {margin: 0 auto;margin-top: 20px;background-image: url("../images/fadearms.jpg");background-repeat: no-repeat; height:253px;}
+header hgroup h1 {text-align:right;padding-right:150px; margin:10px;}
+header hgroup h1 #firstline {padding-right:200px;}
+header hgroup h2 {text-align:center;}
+header hgroup h3 {text-align:center; font-size:16pt;margin:22px 0;}
+footer {clear:both;padding:16px 0;border-top:2px solid #ddd;font-size:75%;margin:16px 48px;}
+a:link {color: #A00; text-decoration: none; -webkit-transition: color 1s; -moz-transition: color 1s;}
+a:visited {color: #900;}
+a:hover {color: orange;}
+.firstletter {font-size: 125%;font-weight:bold;}
+nav ul {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size:12pt;
+  padding: 8px 0 0 0;
+  list-style-type: none;
+  display: block;
+  height: 30px;
+  font-weight: bold;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+  text-shadow: gray 0px 5px 10px;
+  letter-spacing: 2px;
+}
+nav ul li {float: left;display: inline;text-align: center;}
+nav ul li a {padding: 8px 20px 0 20px;}
+hgroup {}
 
 
 
