@@ -14,7 +14,7 @@
   }
 body {
     margin: 10px;
-    font-family: Helvetica, Georgia, serif;
+    font-family: Helvetica, arial, serif;
     font-size: 12pt;
 }
 #wrap {
@@ -58,16 +58,14 @@ h3 {
     margin: 22px 0 22px 0px;
 }
 h4 {
-    font-family: 'Tangerine', serif;
-    font-size: 48px;
+    font-size: 12pt;
     font-style: normal;
-    font-weight: 700;
-    text-shadow: 4px 4px 4px #bbb;
+    font-weight: normal;
     text-decoration: none;
-    text-transform: none;
     letter-spacing: 0em;
     word-spacing: 0em;
     line-height: 1.2;
+    margin:16px;
     }
 
 p {
@@ -188,13 +186,19 @@ a:hover {
 }
 
 #sidebar {
-    float: right;
-    width: 250px;
-    margin-left: 8px;
-    margin-bottom: 8px;
+  float: right;
+  width: 250px;
+  margin-left: 8px;
+  margin-bottom: 8px;
 	background-color: #DCDCDC;
-  -moz-border-radius: 15px;
-	border-radius: 15px;
+	border:1px solid black;
+  -webkit-border-radius: 15px; 
+     -moz-border-radius: 15px; 
+          border-radius: 15px;       
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;  
+  -webkit-box-shadow: 3px 3px 3px #bbb; 
+     -moz-box-shadow: 3px 3px 3px #bbb; 
+          box-shadow: 3px 3px 3px #bbb; 
 }
 #sidebar li {
 	margin: 0 0 0 16px;
@@ -253,12 +257,12 @@ a:hover {
 
 .rightpic {
     float: right;
-    padding: 0 10px 10px 10px;
+    margin: 0 10px 10px 10px;
 }
 
 .leftpic {
     float: left;
-    padding: 0 10px 10px 10px;
+    margin: 0 10px 10px 10px;
 }
 .leftfloat {float: left; width: 480px; }
 .rightfloat {float: right; width: 480px;}
@@ -266,6 +270,11 @@ a:hover {
 .left3 {float:left; width: 320px;}
 .center3 {width: 320px;}
 .right3 {float: right; width: 320px;}
+.shadow {
+  -webkit-box-shadow: 3px 3px 3px #bbb; 
+     -moz-box-shadow: 3px 3px 3px #bbb; 
+          box-shadow: 3px 3px 3px #bbb;
+}
 
 span.amp {
     font-family: "Goudy Old Style", "Palatino", "Book Antiqua", serif;
