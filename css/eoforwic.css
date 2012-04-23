@@ -2,7 +2,8 @@
  CSS file for the Eoforwic Web site
  
  Heavily modified by Jon Barson 2010
- */@import "reset.css";
+ */
+@import "reset.css";
 @font-face {
   font-family: 'Anglo-SaxonCapsRegular';
     src: url('../font/saxon-webfont.eot');
@@ -58,14 +59,16 @@ h3 {
     margin: 22px 0 22px 0px;
 }
 h4 {
+  font-family: 'Anglo-SaxonCapsRegular', Georgia, serif;
+    font-weight: bold;
+    color: #A00;
     font-size: 12pt;
     font-style: normal;
-    font-weight: normal;
     text-decoration: none;
     letter-spacing: 0em;
     word-spacing: 0em;
     line-height: 1.2;
-    margin:16px;
+    margin:0px;
     }
 
 p {
@@ -144,6 +147,15 @@ h2.firstline {
     margin: 0;
 }
 
+ul>li {
+  
+}
+
+ul.list>li{
+  margin: 1em;
+  list-style-type: circle;
+}
+
 ul#nav {
     margin: 0;
     font-family: Georgia, serif;
@@ -151,9 +163,10 @@ ul#nav {
     list-style-type: none;
     display: block;
     height: 30px;
+    width: 100%;
     font-weight: bold;
-    border-bottom: 1px solid #000000;
-    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
     text-shadow: gray 0px 5px 10px;
     letter-spacing: 2px;
 }
